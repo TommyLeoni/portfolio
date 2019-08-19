@@ -1,33 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
+
+* {
+  transition: all ease-in-out 1s;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+
+.img-container {
+  max-height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#test {
+  transition: all ease-in-out 1s;
 }
 
-.App-link {
-  color: #61dafb;
+.example-enter {
+  opacity: 0.01;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
 }
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
