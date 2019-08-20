@@ -1,13 +1,27 @@
 import React from "react";
-import portrait from "./images/myself2.jpg";
+import portraitMain from "./images/myself3.jpg";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import { Spring } from "react-spring/renderprops";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
+import { white, black } from "ansi-colors";
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { items: ["Hi there! My name's Tomaso.", "Or Tommy, as most would call me.", "I'm a 16 year old Application Developer from Switzerland!"]};
+    this.state = {
+      items: [
+        "Hi there! My name's Tomaso.",
+        "Or Tommy, as most would call me.",
+        "I'm a 16 year old Application Developer from Switzerland!"
+      ],
+      keywords: [
+        "Application developer",
+        "Technology fanatic",
+        "Language admirer",
+        "Fashion enthusiast"
+      ]
+    };
   }
 
   toggleText = () => {
@@ -27,18 +41,18 @@ export default class App extends React.Component {
       this.setState({
         items: newItems
       });
-    }, 500)
-  }
+    }, 500);
+  };
 
   render() {
     return (
       <div className="App">
         <div className="row h-100 justify-content-center text-center">
-          <div className="col-xl-5 col-md-12 my-auto">
-            <div className="col-xl-6 mx-auto">
+          <div className="col-xl-3 col-md-12 my-auto">
+            <div className="col-xl-12 mx-auto">
               <img
                 alt="Myself"
-                src={portrait}
+                src={portraitMain}
                 onClick={this.toggleText}
                 className="rounded-circle img-fluid shadow"
               />
@@ -51,7 +65,13 @@ export default class App extends React.Component {
               transitionLeaveTimeout={300}
             >
               <div className="col-xl-10 mx-auto">
-                <h1>{this.state.items[0]}</h1>
+                <h1 class="mb-xl-5">{this.state.items[0]}</h1>
+                <h3 class="col-10 p-0 mb-xl-5">{this.state.items[1]}</h3>
+                <h5 class="col-8 p-0">
+                  <Spring from={{ opacity: 0, width: 0}} to={{ opacity: 1, width: '10'}}>
+                    {props => <h style={props}>hello</h>}
+                  </Spring>
+                </h5>
               </div>
             </ReactCSSTransitionGroup>
           </div>
