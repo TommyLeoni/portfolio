@@ -4,6 +4,8 @@ import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { Spring } from "react-spring/renderprops";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
+import { Card } from "./components/Card";
+import PopCard from "./components/PopCard";
 import { white, black } from "ansi-colors";
 
 export default class App extends React.Component {
@@ -47,35 +49,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="row h-100 justify-content-center text-center">
-          <div className="col-xl-3 col-md-12 my-auto">
-            <div className="col-xl-12 mx-auto">
-              <img
-                alt="Myself"
-                src={portraitMain}
-                onClick={this.toggleText}
-                className="rounded-circle img-fluid shadow"
-              />
-            </div>
-          </div>
-          <div className="col-xl-7 col-md-12 my-auto text-left">
-            <ReactCSSTransitionGroup
-              transitionName="example"
-              transitionEnterTimeout={500}
-              transitionLeaveTimeout={300}
-            >
-              <div className="col-xl-10 mx-auto">
-                <h1 class="mb-xl-5">{this.state.items[0]}</h1>
-                <h3 class="col-10 p-0 mb-xl-5">{this.state.items[1]}</h3>
-                <h5 class="col-8 p-0">
-                  <Spring from={{ opacity: 0, width: 0}} to={{ opacity: 1, width: '10'}}>
-                    {props => <h style={props}>hello</h>}
-                  </Spring>
-                </h5>
-              </div>
-            </ReactCSSTransitionGroup>
-          </div>
-        </div>
+        <PopCard />
       </div>
     );
   }
