@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
 
 * {
-  transition: all ease-in-out 1s;
   font-family: 'Lexend Mega', sans-serif;
 }
 
 .App {
   height: 100vh;
   width: 100vw;
+  background: #f0f0f0;
 }
-
-
 
 .img-container {
   max-height: 300px;
@@ -37,4 +35,9 @@
   opacity: 0.01;
   transition: opacity 300ms ease-in;
 }
+
+#test {
+  background-color: black;
+}
+
 

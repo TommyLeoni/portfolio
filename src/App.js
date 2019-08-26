@@ -1,12 +1,10 @@
 import React from "react";
+import {useSpring, animated} from 'react-spring'
+import { Card } from "./components/PopupCard";
 import portraitMain from "./images/myself3.jpg";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
-import { Spring } from "react-spring/renderprops";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import { Card } from "./components/Card";
-import PopCard from "./components/PopCard";
-import { white, black } from "ansi-colors";
+import CustomCard from "./components/CustomCard";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -22,7 +20,8 @@ export default class App extends React.Component {
         "Technology fanatic",
         "Language admirer",
         "Fashion enthusiast"
-      ]
+      ],
+      open: false
     };
   }
 
@@ -49,7 +48,10 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <PopCard />
+        <div id="root">
+          <Card />
+        </div>
+        <div className="row w-100 h-100"></div>
       </div>
     );
   }
