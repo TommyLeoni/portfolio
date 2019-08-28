@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
 
-<<<<<<< HEAD
-=======
-* {
-  font-family: 'Lexend Mega', sans-serif;
+.img-left-col {
+  background-image: url("./images/left-col.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
->>>>>>> ae00e6dfb5332c05e9712a7ebb1767095b5ef990
+.landing {
+  height: 100%;
+}
+
+.greeting {
+  border-bottom: solid 5px #212529;
+}
+
 .App {
   height: 100vh;
   width: 100vw;
@@ -17,8 +24,6 @@
   max-height: 300px;
 }
 
-<<<<<<< HEAD
-=======
 #test {
   transition: all ease-in-out 1s;
 }
@@ -46,4 +51,3 @@
 }
 
 
->>>>>>> ae00e6dfb5332c05e9712a7ebb1767095b5ef990
