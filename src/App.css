@@ -1,11 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
 
+<<<<<<< HEAD
+=======
+* {
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+>>>>>>> ae00e6dfb5332c05e9712a7ebb1767095b5ef990
 .App {
   height: 100vh;
   width: 100vw;
+  background: #f0f0f0;
 }
 
 .img-container {
   max-height: 300px;
 }
 
+<<<<<<< HEAD
+=======
+#test {
+  transition: all ease-in-out 1s;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+#test {
+  background-color: black;
+}
+
+
+>>>>>>> ae00e6dfb5332c05e9712a7ebb1767095b5ef990

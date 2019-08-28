@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.css";
-import React from "react";
+import { default as React, default as React } from "react";
 import "./App.css";
+import { Card } from "./components/PopupCard";
 import portraitMain from "./images/myself3.jpg";
-//import { white, black } from "ansi-colors";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -18,7 +18,8 @@ export default class App extends React.Component {
         "Technology fanatic",
         "Language admirer",
         "Fashion enthusiast"
-      ]
+      ],
+      open: false
     };
   }
 
@@ -78,6 +79,10 @@ export default class App extends React.Component {
             >
             </ReactCSSTransitionGroup> */}
           </div>
+          <div id="root">
+            <Card />
+          </div>
+          <div className="row w-100 h-100"></div>
         </div>
       </div>
     );
