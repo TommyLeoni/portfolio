@@ -1,10 +1,8 @@
-import React from "react";
-import portraitMain from "./images/myself3.jpg";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
-import { Spring } from "react-spring/renderprops";
 import "bootstrap/dist/css/bootstrap.css";
+import React from "react";
 import "./App.css";
-import { white, black } from "ansi-colors";
+import portraitMain from "./images/myself3.jpg";
+//import { white, black } from "ansi-colors";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -48,32 +46,37 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <div className="row h-100 justify-content-center text-center">
-          <div className="col-xl-3 col-md-12 my-auto">
+          <div className="col-xl-12 col-md-12 my-auto d-inline-block">
             <div className="col-xl-12 mx-auto">
               <img
                 alt="Myself"
+                id="portrait"
                 src={portraitMain}
                 onClick={this.toggleText}
-                className="rounded-circle img-fluid shadow"
+                className="rounded-circle img-fluid shadow img-container"
               />
             </div>
           </div>
-          <div className="col-xl-7 col-md-12 my-auto text-left">
-            <ReactCSSTransitionGroup
+          <div className="col-xl-10 col-md-12 text-center d-inline-block row">
+            <div className="row justify-content-center">
+              <div className="col-xl-3 mr-3 rounded shadow">
+                <h1 className="p-4">About me</h1>
+              </div>
+
+              <div className="col-xl-3 mx-3 rounded shadow">
+                <h1 className="p-4">CV</h1>
+              </div>
+
+              <div className="col-xl-3 ml-3 rounded shadow">
+                <h1 className="p-4">Contact</h1>
+              </div>
+            </div>
+            {/* <ReactCSSTransitionGroup
               transitionName="example"
               transitionEnterTimeout={500}
               transitionLeaveTimeout={300}
             >
-              <div className="col-xl-10 mx-auto">
-                <h1 class="mb-xl-5">{this.state.items[0]}</h1>
-                <h3 class="col-10 p-0 mb-xl-5">{this.state.items[1]}</h3>
-                <h5 class="col-8 p-0">
-                  <Spring from={{ opacity: 0, width: 0}} to={{ opacity: 1, width: '10'}}>
-                    {props => <h style={props}>hello</h>}
-                  </Spring>
-                </h5>
-              </div>
-            </ReactCSSTransitionGroup>
+            </ReactCSSTransitionGroup> */}
           </div>
         </div>
       </div>
