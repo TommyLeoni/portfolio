@@ -1,49 +1,12 @@
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
 import React from "react";
 import "./App.css";
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      items: [
-        "Hi there! My name's Tomaso.",
-        "Or Tommy, as most would call me.",
-        "I'm a 16 year old Application Developer from Switzerland!"
-      ],
-      keywords: [
-        "Application developer",
-        "Technology fanatic",
-        "Language admirer",
-        "Fashion enthusiast"
-      ],
-      open: false
-    };
-  }
-
-  toggleText = () => {
-    const newItems = this.state.items;
-    newItems[0] = "";
-    newItems[1] = "";
-    newItems[2] = "";
-    newItems[3] = "";
-    this.setState({
-      items: newItems
-    });
-    setTimeout(_ => {
-      newItems[0] = "aaa";
-      newItems[1] = "aaaa";
-      newItems[2] = "aaaaa";
-      newItems[3] = "aaaaaa";
-      this.setState({
-        items: newItems
-      });
-    }, 500);
-  };
-
   render() {
     return (
-      <div className="App">
+      <div className="App d-inline-block">
         <div className="row justify-content-center text-center landing">
           <div className="col-4 img-left-col"></div>
           <div className="col-8 my-auto">
@@ -59,6 +22,149 @@ export default class App extends React.Component {
                     artificial intelligence, machine learning and biomechanical
                     engineering
                   </p>
+                </div>
+                <div className="col-9">
+                  <div id="accordion">
+                    <div class="card m-3">
+                      <div class="card-header text-container" id="headingOne">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseOne"
+                            aria-expanded="false"
+                            aria-controls="collapseOne"
+                          >
+                            More about me
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div
+                        id="collapseOne"
+                        class="collapse"
+                        aria-labelledby="headingOne"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body text-justify text-container">
+                          My name is Tomaso Aurelio Domenico Leoni and I am a 16
+                          year old application developer from the Italian canton
+                          of Switzerland, I however grew up in Germany, where I
+                          spent the first 11 years of my life. I have always
+                          been very invested in all sorts of technologies, so I
+                          always knew I was predestined to be working in this
+                          market branch one day. During my free time, I love
+                          working on my own personal projects or help others out
+                          with their projects. Apart from technology and
+                          software development though, I am also a great fan of
+                          learning languages, motor sports, fashion, music and
+                          aesthetics.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card m-3">
+                      <div class="card-header text-container" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                          >
+                            Skills / CV
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="collapse"
+                        aria-labelledby="headingTwo"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body text-justify text-container">
+                          <div className="row text-center">
+                            <div className="col-12">
+                              <dl className="text-left">
+                                <dt>Programming skills:</dt>
+                                <dd>
+                                • Deep knowledge of Java, C#, Dart, Python,
+                                  JavaScript, Ruby, HTML & CSS
+                                </dd>
+                                <dd>
+                                • Broad experience in mobile and web development
+                                  using Flutter, Android Studio, Ruby on Rails,
+                                  ReactJS & NodeJS
+                                </dd>
+                                <dd>
+                                • Great knowledge of databases: SQLite, MySQL,
+                                  Dokumentbasierte Datenbanken (MongoDB &
+                                  Firebase)
+                                </dd>
+                              </dl>
+                            </div>
+                            <div className="col-12">
+                              <dl className="text-left">
+                                <strong>Language skills:</strong>
+                                <dd>
+                                  <span>• German</span>
+                                  <span className="font-italic">
+                                    {" "}
+                                    - Native language, I grew up in Germany, but
+                                    I have no issues understanding any of the
+                                    swiss german dialects
+                                  </span>
+                                </dd>
+                                <dd>
+                                  <span>• Italian</span>
+                                  <span className="font-italic">
+                                    {" "}
+                                    - 2nd Native language
+                                  </span>
+                                </dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card m-3">
+                      <div class="card-header text-container" id="headingThree">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                          >
+                            Contact
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseThree"
+                        class="collapse text-container"
+                        aria-labelledby="headingThree"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body text-justify text-container">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
