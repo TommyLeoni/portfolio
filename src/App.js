@@ -6,7 +6,7 @@ import "./App.css";
 export default class App extends React.Component {
   render() {
     return (
-      <div className="App d-inline-block">
+      <div className="App">
         <div className="row justify-content-center text-center landing">
           <div className="col-4 img-left-col"></div>
           <div className="col-8 my-auto">
@@ -25,11 +25,14 @@ export default class App extends React.Component {
                 </div>
                 <div className="col-9">
                   <div id="accordion">
-                    <div class="card m-3">
-                      <div class="card-header text-container" id="headingOne">
-                        <h5 class="mb-0">
+                    <div className="card m-3">
+                      <div
+                        className="card-header text-container"
+                        id="headingOne"
+                      >
+                        <h5 className="mb-0">
                           <button
-                            class="btn collapsed"
+                            className="btn collapsed"
                             data-toggle="collapse"
                             data-target="#collapseOne"
                             aria-expanded="false"
@@ -42,11 +45,11 @@ export default class App extends React.Component {
 
                       <div
                         id="collapseOne"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingOne"
                         data-parent="#accordion"
                       >
-                        <div class="card-body text-justify text-container">
+                        <div className="card-body text-justify text-container">
                           My name is Tomaso Aurelio Domenico Leoni and I am a 16
                           year old application developer from the Italian canton
                           of Switzerland, I however grew up in Germany, where I
@@ -62,11 +65,14 @@ export default class App extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div class="card m-3">
-                      <div class="card-header text-container" id="headingTwo">
-                        <h5 class="mb-0">
+                    <div className="card m-3">
+                      <div
+                        className="card-header text-container"
+                        id="headingTwo"
+                      >
+                        <h5 className="mb-0">
                           <button
-                            class="btn collapsed"
+                            className="btn collapsed"
                             data-toggle="collapse"
                             data-target="#collapseTwo"
                             aria-expanded="false"
@@ -78,32 +84,37 @@ export default class App extends React.Component {
                       </div>
                       <div
                         id="collapseTwo"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingTwo"
                         data-parent="#accordion"
                       >
-                        <div class="card-body text-justify text-container">
+                        <div className="card-body text-justify text-container">
                           <div className="row text-center">
-                            <div className="col-12">
+                            <div className="col-12 mb-2">
+                              <p>
+                                Take a look at my complete <a className="text-body " href="CV_TomasoLeoni.pdf" download><u>CV</u></a> or catch a glimpse of my skills below:
+                              </p>
+                            </div>
+                            <div className="col-6">
                               <dl className="text-left">
                                 <dt>Programming skills:</dt>
                                 <dd>
-                                • Deep knowledge of Java, C#, Dart, Python,
+                                  • Deep knowledge of Java, C#, Dart, Python,
                                   JavaScript, Ruby, HTML & CSS
                                 </dd>
                                 <dd>
-                                • Broad experience in mobile and web development
-                                  using Flutter, Android Studio, Ruby on Rails,
-                                  ReactJS & NodeJS
+                                  • Broad experience in mobile and web
+                                  development using Flutter, Android Studio,
+                                  Ruby on Rails, ReactJS & NodeJS
                                 </dd>
                                 <dd>
-                                • Great knowledge of databases: SQLite, MySQL,
+                                  • Great knowledge of databases: SQLite, MySQL,
                                   Dokumentbasierte Datenbanken (MongoDB &
                                   Firebase)
                                 </dd>
                               </dl>
                             </div>
-                            <div className="col-12">
+                            <div className="col-6">
                               <dl className="text-left">
                                 <strong>Language skills:</strong>
                                 <dd>
@@ -111,8 +122,8 @@ export default class App extends React.Component {
                                   <span className="font-italic">
                                     {" "}
                                     - Native language, I grew up in Germany, but
-                                    I have no issues understanding any of the
-                                    swiss german dialects
+                                    I have no issues whatsoever understanding
+                                    the Swiss German language
                                   </span>
                                 </dd>
                                 <dd>
@@ -122,17 +133,43 @@ export default class App extends React.Component {
                                     - 2nd Native language
                                   </span>
                                 </dd>
+                                <dd>
+                                  <span>• English</span>
+                                  <span className="font-italic">
+                                    {" "}
+                                    - Certificate of Proficiency in English
+                                    (Level C2, achieved in April of 2019)
+                                  </span>
+                                </dd>
+                                <dd>
+                                  <span>• French</span>
+                                  <span className="font-italic">
+                                    {" "}
+                                    - (Upcoming) Diplôme avancé de la langue
+                                    francaise (Level C1)
+                                  </span>
+                                </dd>
+                                <dd>
+                                  <span>• Swedish</span>
+                                  <span className="font-italic">
+                                    {" "}
+                                    - Level B1/B2, self-taught
+                                  </span>
+                                </dd>
                               </dl>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="card m-3">
-                      <div class="card-header text-container" id="headingThree">
-                        <h5 class="mb-0">
+                    <div className="card m-3">
+                      <div
+                        className="card-header text-container"
+                        id="headingThree"
+                      >
+                        <h5 className="mb-0">
                           <button
-                            class="btn collapsed"
+                            className="btn collapsed"
                             data-toggle="collapse"
                             data-target="#collapseThree"
                             aria-expanded="false"
@@ -144,11 +181,11 @@ export default class App extends React.Component {
                       </div>
                       <div
                         id="collapseThree"
-                        class="collapse text-container"
+                        className="collapse text-container"
                         aria-labelledby="headingThree"
                         data-parent="#accordion"
                       >
-                        <div class="card-body text-justify text-container">
+                        <div className="card-body text-justify text-container">
                           Anim pariatur cliche reprehenderit, enim eiusmod high
                           life accusamus terry richardson ad squid. 3 wolf moon
                           officia aute, non cupidatat skateboard dolor brunch.
