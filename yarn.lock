@@ -8039,6 +8039,11 @@ react-is@^16.6.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
 
+react-mailto@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-mailto/-/react-mailto-0.4.0.tgz#2229cb60fca3552273f82e4de96c83f2d12c0d5f"
+  integrity sha1-IinLYPyjVSJz+C5N6WyD8tEsDV8=
+
 react-measure@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/react-measure/-/react-measure-2.3.0.tgz#75835d39abec9ae13517f35a819c160997a7a44e"

@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
+import emailIcon from "./icons/email.svg";
+import githubIcon from "./icons/github.svg";
 import React from "react";
+import ContactGridElement from "./components/ContactGridElement";
 import "./App.css";
 
 export default class App extends React.Component {
@@ -49,19 +52,29 @@ export default class App extends React.Component {
                         aria-labelledby="headingOne"
                         data-parent="#accordion"
                       >
+                        {/* After I have finished my school for
+                          information technology in Berne, I would like to
+                          venture towards more sophisticated topics, such as
+                          artificial intelligence, medical information
+                          technologies or other areas I already mentioned above.
+                          Studying in one of these fields is also a plan of
+                          mine, although I am currently still undecided as to
+                          what program I will end up taking up: Medical
+                          Information Technology, Bioinformatics and Biomedical
+                        Engineering or just plain old Computer Science? --> */}
                         <div className="card-body text-justify text-container">
                           My name is Tomaso Aurelio Domenico Leoni and I am a 16
-                          year old application developer from the Italian canton
-                          of Switzerland, I however grew up in Germany, where I
-                          spent the first 11 years of my life. I have always
-                          been very invested in all sorts of technologies, so I
-                          always knew I was predestined to be working in this
-                          market branch one day. During my free time, I love
-                          working on my own personal projects or help others out
-                          with their projects. Apart from technology and
-                          software development though, I am also a great fan of
-                          learning languages, motor sports, fashion, music and
-                          aesthetics.
+                          year old application developer from Switzerland, I
+                          however grew up in Germany, where I spent the first 11
+                          years of my life. I have always been very invested in
+                          all sorts of technologies, so I always knew I was
+                          predestined to be working in this market branch one
+                          day. During my free time, I love working on my own
+                          personal projects or help others out with their
+                          projects. Apart
+                          from technology and software development though, I am
+                          also a great fan of learning languages, motor sports,
+                          fashion, music and aesthetics.
                         </div>
                       </div>
                     </div>
@@ -92,7 +105,15 @@ export default class App extends React.Component {
                           <div className="row text-center">
                             <div className="col-12 mb-2">
                               <p>
-                                Take a look at my complete <a className="text-body " href="CV_TomasoLeoni.pdf" download><u>CV</u></a> or catch a glimpse of my skills below:
+                                Take a look at my complete{" "}
+                                <a
+                                  className="text-body"
+                                  href="CV_TomasoLeoni.pdf"
+                                  download
+                                >
+                                  <u>CV</u>
+                                </a>{" "}
+                                or catch a glimpse of my skills below:
                               </p>
                             </div>
                             <div className="col-6">
@@ -186,18 +207,18 @@ export default class App extends React.Component {
                         data-parent="#accordion"
                       >
                         <div className="card-body text-justify text-container">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high
-                          life accusamus terry richardson ad squid. 3 wolf moon
-                          officia aute, non cupidatat skateboard dolor brunch.
-                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                          wolf moon tempor, sunt aliqua put a bird on it squid
-                          single-origin coffee nulla assumenda shoreditch et.
-                          Nihil anim keffiyeh helvetica, craft beer labore wes
-                          anderson cred nesciunt sapiente ea proident. Ad vegan
-                          excepteur butcher vice lomo. Leggings occaecat craft
-                          beer farm-to-table, raw denim aesthetic synth nesciunt
-                          you probably haven't heard of them accusamus labore
-                          sustainable VHS.
+                          <div className="row text-center justify-content-center">
+                            <ContactGridElement
+                              icon={emailIcon}
+                              content="tomasoleoni@gmail.com"
+                            ></ContactGridElement>
+                            <ContactGridElement
+                              icon={githubIcon}
+                              content="TommyLeoni"
+                              contentSize="2"
+                              url="https://github.com/TommyLeoni"
+                            ></ContactGridElement>
+                          </div>
                         </div>
                       </div>
                     </div>

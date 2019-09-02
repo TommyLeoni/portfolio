@@ -25,6 +25,10 @@
   max-height: 300px;
 }
 
+.icon {
+  max-height: 50px;
+}
+
 #test {
   transition: all ease-in-out 1s;
 }
