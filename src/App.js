@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
+import React from "react";
+import "./App.css";
+import ContactGridElement from "./components/ContactGridElement";
 import emailIcon from "./icons/email.svg";
 import githubIcon from "./icons/github.svg";
-import React from "react";
-import ContactGridElement from "./components/ContactGridElement";
-import "./App.css";
 
 export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="row justify-content-center text-center landing">
+        <div className="row justify-content-center text-center w-100 h-100">
           <div className="col-4 img-left-col"></div>
           <div className="col-8 my-auto">
             <div className="greeting d-inline-block">
