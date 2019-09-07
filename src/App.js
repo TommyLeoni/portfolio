@@ -71,10 +71,10 @@ export default class App extends React.Component {
                           predestined to be working in this market branch one
                           day. During my free time, I love working on my own
                           personal projects or help others out with their
-                          projects. Apart
-                          from technology and software development though, I am
-                          also a great fan of learning languages, motor sports,
-                          fashion, music and aesthetics.
+                          projects. Apart from technology and software
+                          development though, I am also a great fan of learning
+                          languages, motor sports, fashion, music and
+                          aesthetics.
                         </div>
                       </div>
                     </div>
@@ -216,6 +216,45 @@ export default class App extends React.Component {
                               icon={githubIcon}
                               content="TommyLeoni"
                               contentSize="2"
+                              url="https://github.com/TommyLeoni"
+                            ></ContactGridElement>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card m-3">
+                      <div
+                        className="card-header text-container"
+                        id="headingFour"
+                      >
+                        <h5 className="mb-0">
+                          <button
+                            className="btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFuor"
+                          >
+                            Contact
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseFour"
+                        className="collapse text-container"
+                        aria-labelledby="headingFour"
+                        data-parent="#accordion"
+                      >
+                        <div className="card-body text-justify text-container">
+                          <div className="row text-center justify-content-center">
+                            <ContactGridElement
+                              icon={emailIcon}
+                              content="tomasoleoni@gmail.com"
+                            ></ContactGridElement>
+                            <ContactGridElement
+                              icon={githubIcon}
+                              content="TommyLeoni"
+                              contentSize="md"
                               url="https://github.com/TommyLeoni"
                             ></ContactGridElement>
                           </div>
