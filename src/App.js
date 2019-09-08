@@ -5,6 +5,10 @@ import "./App.css";
 import ContactGridElement from "./components/ContactGridElement";
 import emailIcon from "./icons/email.svg";
 import githubIcon from "./icons/github.svg";
+import noteableIcon from "./icons/noteable_icon.png";
+import moneylogIcon from "./icons/moneylog_icon.ico";
+import matchedIcon from "./icons/matched_icon.png";
+import splashxIcon from "./icons/splashx_icon.svg";
 
 export default class App extends React.Component {
   render() {
@@ -196,7 +200,7 @@ export default class App extends React.Component {
                             aria-expanded="false"
                             aria-controls="collapseThree"
                           >
-                            Contact
+                            Projects
                           </button>
                         </h5>
                       </div>
@@ -209,14 +213,30 @@ export default class App extends React.Component {
                         <div className="card-body text-justify text-container">
                           <div className="row text-center justify-content-center">
                             <ContactGridElement
-                              icon={emailIcon}
-                              content="tomasoleoni@gmail.com"
+                              icon={noteableIcon}
+                              content="noteable - A note taking app for iOS and Android"
+                              contentSize="5"
+                              url="https://github.com/TommyLeoni/noteable_public"
                             ></ContactGridElement>
                             <ContactGridElement
-                              icon={githubIcon}
-                              content="TommyLeoni"
-                              contentSize="2"
-                              url="https://github.com/TommyLeoni"
+                              icon={moneylogIcon}
+                              content="moneylog - A WPF based personal finance management tool"
+                              contentSize="5"
+                              url="https://github.com/TommyLeoni/moneylog"
+                            ></ContactGridElement>
+                          </div>
+                          <div className="row justify-content-center text-left">
+                            <ContactGridElement
+                              icon={matchedIcon}
+                              content="MatchEd - A platform designed for academics: Share your interests and find people to collaborate with"
+                              contentSize="5"
+                              url="https://github.com/TommyLeoni/MatchEd-Frontend"
+                            ></ContactGridElement>
+                            <ContactGridElement
+                              icon={splashxIcon}
+                              content="SplashX - The app that gives you all necessary information about the swimming pools in your area"
+                              contentSize="5"
+                              url="https://github.com/TommyLeoni/splashx"
                             ></ContactGridElement>
                           </div>
                         </div>
