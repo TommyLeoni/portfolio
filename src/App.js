@@ -16,7 +16,7 @@ export default class App extends React.Component {
           <div className="col-sm-4 col-12 pr-0 img-left-col-container">
             <div className="img-left-col"></div>
           </div>
-          <div className="col-sm-8 col-11 pl-0 my-sm-auto landing">
+          <div className="col-sm-8 col-11 px-0 my-sm-auto landing">
             <div className="d-inline-block">
               <h1 className="greeting">Hi! My name's Tomaso</h1>
             </div>
