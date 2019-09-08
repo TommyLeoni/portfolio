@@ -5,65 +5,58 @@
   background-position: center;
   background-size: cover;
   max-height: 100%;
+  height: 100%;
+  width: 100%;
 }
 
-.landing {
-  height: 100%;
+.img-left-col-container {
+  max-height: 100%;
 }
 
 .greeting {
   border-bottom: solid 5px #212529;
+  font-size: 2.4rem;
 }
 
 .App {
   height: 100vh;
   width: 100vw;
-  max-width: 100vw;
-  max-height: 100vh;
-  overflow: hidden;
 }
+
+@media (max-width: 575.98px) { 
+  .greeting {
+    border-bottom: solid 5px #212529;
+    font-size: 1.6rem;
+    margin-top: 10px;
+  }
+
+  .App {
+    overflow: scroll;
+    height: auto!important;
+    width: auto!important;
+  }
+
+  .img-left-col-container {
+    height: 25vh;
+  }
+
+  .landing-text {
+    text-justify: newspaper;
+  }
+
+  .landing {
+    height: 100%;
+  }
+ }
 
 #accordion {
   max-height: 100vh!important;
   overflow-y: auto;
 }
 
-.element::-webkit-scrollbar {
-  width: 0 !important;
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
-}
-
-.img-container {
-  max-height: 300px;
-}
-
 .icon {
   max-height: 50px;
 }
-
-#test {
-  transition: all ease-in-out 1s;
-}
-
-.example-enter {
-  opacity: 0.01;
-}
-
-.example-enter.example-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.example-leave {
-  opacity: 1;
-}
-
-.example-leave.example-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
-}
-
 
 .text-container {
   background-color: #f0f0f0;
