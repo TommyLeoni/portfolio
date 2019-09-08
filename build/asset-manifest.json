@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5521547.chunk.css",
+    "main.js": "/static/js/main.b70d744a.chunk.js",
+    "main.js.map": "/static/js/main.b70d744a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.b908f969.js",
+    "runtime~main.js.map": "/static/js/runtime~main.b908f969.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.0f3aa365.chunk.js": "/static/js/2.0f3aa365.chunk.js",
+    "static/js/2.0f3aa365.chunk.js.map": "/static/js/2.0f3aa365.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0c51d4cd7fe625c55f23998b787a8afa.js": "/precache-manifest.0c51d4cd7fe625c55f23998b787a8afa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.a5521547.chunk.css.map": "/static/css/main.a5521547.chunk.css.map",
+    "static/media/email.svg": "/static/media/email.4115ba7d.svg",
+    "static/media/App.css": "/static/media/left-col.e1329fa5.jpg",
+    "static/media/moneylog_icon.ico": "/static/media/moneylog_icon.8d741a64.ico",
+    "static/media/splashx_icon.svg": "/static/media/splashx_icon.ca4319db.svg"
+  }
+}
