@@ -1,6 +1,6 @@
 import React from "react";
-import ContactGridElement from "./ContactGridElement";
 import emailIcon from "../icons/email.svg";
+import ContactGridElement from "./ContactGridElement";
 
 export default class Contact extends React.Component {
   render() {
@@ -29,6 +29,7 @@ export default class Contact extends React.Component {
             <div className="row text-left justify-content-center">
               <ContactGridElement
                 icon={emailIcon}
+                contentSize="4"
                 content="tomasoleoni@gmail.com"
               ></ContactGridElement>
             </div>

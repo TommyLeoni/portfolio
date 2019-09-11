@@ -1,10 +1,10 @@
 import React from "react";
-import ContactGridElement from "./ContactGridElement";
-import noteableIcon from "../icons/noteable_icon.png";
-import moneylogIcon from "../icons/moneylog_icon.ico";
 import matchedIcon from "../icons/matched_icon.png";
+import moneylogIcon from "../icons/moneylog_icon.ico";
+import noteableIcon from "../icons/noteable_icon.png";
 import splashxIcon from "../icons/splashx_icon.svg";
-
+import tomasoleoniIcon from "../icons/tomasoleoni.svg";
+import ContactGridElement from "./ContactGridElement";
 
 export default class Projects extends React.Component {
   render() {
@@ -33,7 +33,7 @@ export default class Projects extends React.Component {
             <div className="row text-center justify-content-center">
               <ContactGridElement
                 icon={noteableIcon}
-                content="noteable - A note taking app for iOS and Android"
+                content="noteable - A note taking app for iOS and Android maded with Flutter"
                 contentSize="5"
                 url="https://github.com/TommyLeoni/noteable_public"
               ></ContactGridElement>
@@ -48,16 +48,25 @@ export default class Projects extends React.Component {
               <ContactGridElement
                 icon={matchedIcon}
                 center="true"
-                content="MatchEd - A platform designed for academics: Share your interests and find people to collaborate with"
+                content="MatchEd - A platform designed for academics: Share your interests and find people to collaborate with. Built on Node & React JS"
                 contentSize="5"
                 url="https://github.com/TommyLeoni/MatchEd-Frontend"
               ></ContactGridElement>
               <ContactGridElement
                 icon={splashxIcon}
                 center="true"
-                content="SplashX - The app that gives you all necessary information about the swimming pools in your area"
+                content="SplashX - The app that gives you all necessary information about the swimming pools in your area, built on Java within Android Studio"
                 contentSize="5"
                 url="https://github.com/TommyLeoni/splashx"
+              ></ContactGridElement>
+            </div>
+            <div className="row justify-content-center text-center">
+              <ContactGridElement
+                icon={tomasoleoniIcon}
+                center="true"
+                contentSize="5"
+                url="#"
+                content="My portfolio - the website you are currently looking at! I built this page on React JS with the goal of having a go-to address to get all the necessary information on me"
               ></ContactGridElement>
             </div>
           </div>
