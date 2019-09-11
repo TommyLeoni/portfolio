@@ -60,7 +60,7 @@ export default class Projects extends React.Component {
                 url="https://github.com/TommyLeoni/splashx"
               ></ContactGridElement>
             </div>
-            <div className="row justify-content-center text-center">
+            <div className="row justify-content-center text-left">
               <ContactGridElement
                 icon={tomasoleoniIcon}
                 center="true"
