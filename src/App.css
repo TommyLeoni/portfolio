@@ -23,7 +23,7 @@
   width: 100vw;
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
   .greeting {
     border-bottom: solid 5px #212529;
     font-size: 1.6rem;
@@ -32,8 +32,8 @@
 
   .App {
     overflow: scroll;
-    height: auto!important;
-    width: auto!important;
+    height: auto !important;
+    width: auto !important;
   }
 
   .img-left-col-container {
@@ -47,10 +47,10 @@
   .landing {
     height: 100%;
   }
- }
+}
 
 #accordion {
-  max-height: 100vh!important;
+  max-height: 100vh !important;
   overflow-y: auto;
 }
 
