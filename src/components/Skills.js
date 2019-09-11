@@ -4,17 +4,16 @@ export default class Skills extends React.Component {
   render() {
     return (
       <div className="card m-3">
-        <div className="card-header text-container" id="headingTwo">
+        <div
+          className="card-header text-container pointer"
+          id="headingTwo"
+          data-toggle="collapse"
+          data-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
           <h5 className="mb-0">
-            <button
-              className="btn collapsed"
-              data-toggle="collapse"
-              data-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Skills / CV
-            </button>
+            <button className="btn collapsed">Skills / CV</button>
           </h5>
         </div>
         <div

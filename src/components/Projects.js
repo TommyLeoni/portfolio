@@ -10,17 +10,16 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div className="card m-3">
-        <div className="card-header text-container" id="headingThree">
+        <div
+          className="card-header text-container pointer"
+          id="headingThree"
+          data-toggle="collapse"
+          data-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree"
+        >
           <h5 className="mb-0">
-            <button
-              className="btn collapsed"
-              data-toggle="collapse"
-              data-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              Projects
-            </button>
+            <button className="btn collapsed">Projects</button>
           </h5>
         </div>
         <div
@@ -60,12 +59,12 @@ export default class Projects extends React.Component {
                 url="https://github.com/TommyLeoni/splashx"
               ></ContactGridElement>
             </div>
-            <div className="row justify-content-center text-left">
+            <div className="row justify-content-start text-left">
               <ContactGridElement
                 icon={tomasoleoniIcon}
                 center="true"
                 contentSize="5"
-                url="#"
+                url="https://github.com/TommyLeoni/portfolio"
                 content="My portfolio - the website you are currently looking at! I built this page on React JS with the goal of having a go-to address to get all the necessary information on me"
               ></ContactGridElement>
             </div>

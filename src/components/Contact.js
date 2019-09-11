@@ -6,17 +6,16 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="card m-3">
-        <div className="card-header text-container" id="headingFour">
+        <div
+          className="card-header text-container pointer"
+          id="headingFour"
+          data-toggle="collapse"
+          data-target="#collapseFour"
+          aria-expanded="false"
+          aria-controls="collapseFuor"
+        >
           <h5 className="mb-0">
-            <button
-              className="btn collapsed"
-              data-toggle="collapse"
-              data-target="#collapseFour"
-              aria-expanded="false"
-              aria-controls="collapseFuor"
-            >
-              Contact
-            </button>
+            <button className="btn collapsed">Contact</button>
           </h5>
         </div>
         <div
@@ -30,6 +29,7 @@ export default class Contact extends React.Component {
               <ContactGridElement
                 icon={emailIcon}
                 contentSize="4"
+                mail="true"
                 content="tomasoleoni@gmail.com"
               ></ContactGridElement>
             </div>
