@@ -33,7 +33,7 @@ export default class Skills extends React.Component {
                   or catch a glimpse of my skills below:
                 </p>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <dl className="text-left">
                   <dt>Programming skills:</dt>
                   <dd>
@@ -50,7 +50,7 @@ export default class Skills extends React.Component {
                   </dd>
                 </dl>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <dl className="text-left">
                   <strong>Language skills:</strong>
                   <dd>

@@ -16,7 +16,7 @@ export default class ContactGridElement extends React.Component {
     };
     return (
       <>
-        <div className={`col-lg-1 col-3 my-auto`}>
+        <div className={`col-lg-2 col-3 my-auto`}>
           <a href={"mailto:" + this.props.mail}>
             <img
               src={this.props.icon}
@@ -50,7 +50,7 @@ export default class ContactGridElement extends React.Component {
                   {this.props.content}
                 </a>
               ) : (
-                this.props.content
+                "- " + this.props.content
               )}
             </p>
           </div>
