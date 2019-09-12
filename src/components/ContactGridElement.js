@@ -16,7 +16,7 @@ export default class ContactGridElement extends React.Component {
     };
     return (
       <>
-        <div className={`col-lg-2 col-3 my-auto`}>
+        <div className={`col-lg-2 col-3 my-auto justify-content-center text-center`}>
           <a href={"mailto:" + this.props.mail}>
             <img
               src={this.props.icon}
