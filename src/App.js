@@ -30,7 +30,7 @@ export default class App extends React.Component {
                     current major interest in technologies of the future such as
                     artificial intelligence, machine learning, medical
                     informatics and biomechanical engineering. Currently, I am
-                    in my last year at the Information Technology in Berne,
+                    in my last year at the School for Information Technology of Berne,
                     about to head into a one year internship
                   </p>
                 </div>
