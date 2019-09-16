@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap");
 
 .img-left-col {
   background-image: url("./images/left-col.jpg");
@@ -67,4 +67,14 @@
 
 .pointer:hover {
   cursor: pointer;
+}
+
+.language-switcher {
+  h6 {
+    font-weight: bold;
+  }
+
+  h6:hover {
+    text-decoration: underline;
+  }
 }
