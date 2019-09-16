@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import React from "react";
+import { Trans, withNamespaces } from "react-i18next";
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
-export default class App extends React.Component {
-  render() {
+function App ({ t }) {
     return (
       <div className="App">
         <div className="row justify-content-center text-center h-100">
@@ -20,7 +20,9 @@ export default class App extends React.Component {
           </div>
           <div className="col-sm-8 col-11 px-0 my-sm-auto mt-3 landing">
             <div className="d-inline-block">
-              <h1 className="greeting">Hi! My name's Tomaso</h1>
+              <h1 className="greeting">
+                <Trans>{t("title")}</Trans>
+              </h1>
             </div>
             <div className="leading-text">
               <div className="row justify-content-center text-center landing">
@@ -30,8 +32,8 @@ export default class App extends React.Component {
                     current major interest in technologies of the future such as
                     artificial intelligence, machine learning, medical
                     informatics and biomechanical engineering. Currently, I am
-                    in my last year at the School for Information Technology of Berne,
-                    about to head into a one year internship
+                    in my last year at the School for Information Technology of
+                    Berne, about to head into a one year internship
                   </p>
                 </div>
                 <div className="col-lg-9 col-12">
@@ -49,4 +51,5 @@ export default class App extends React.Component {
       </div>
     );
   }
-}
+
+  export default withNamespaces()(App);
