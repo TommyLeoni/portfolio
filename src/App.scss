@@ -44,6 +44,7 @@
 
   .landing-text {
     text-justify: newspaper;
+    transition: all 0.3s ease-in-out;
   }
 
   .landing {
@@ -72,9 +73,11 @@
 .language-switcher {
   h6 {
     font-weight: bold;
+    cursor: pointer;
   }
 
   h6:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
 }

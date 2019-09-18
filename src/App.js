@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
-import "react-tiny-fab/dist/styles.css";
 import React from "react";
 import { Trans, withNamespaces } from "react-i18next";
+import "react-tiny-fab/dist/styles.css";
 import "./App.scss";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import LanguageSwitcher from "./components/LanguageSwitcher";
 
 function App({ t }) {
   return (
@@ -30,12 +30,9 @@ function App({ t }) {
             <div className="row justify-content-center text-center landing">
               <div className="col-lg-8 col-11">
                 <p className="mt-3 landing-text">
-                  I am an Application developer from Switzerland, with a current
-                  major interest in technologies of the future such as
-                  artificial intelligence, machine learning, medical informatics
-                  and biomechanical engineering. Currently, I am in my last year
-                  at the School for Information Technology of Berne, about to
-                  head into a one year internship
+                  <Trans>
+                    {t("leadingText")}
+                  </Trans>
                 </p>
               </div>
               <div className="col-lg-9 col-12">
