@@ -1,3 +1,10 @@
+# Quick Info !!
+This is not yet the final version of my webpage. I am currently working on smaller improvements, such as localisation and an overhaul of the projects area (as I feel it is a bit too crammed) and am planning a pretty much full re-work of the website's design once I've gathered some good information. For now though, [enjoy it's current state!](https://tomasoleoni.herokuapp.com) 🤠
+
+
+
+
+
 # My portfolio website
 
 ### Why I made this
