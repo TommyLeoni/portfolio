@@ -19,7 +19,7 @@ function App({ t }) {
   return (
     <div className="App">
       <div className="row justify-content-center text-center h-100">
-        <div className="col-sm-4 col-12 pr-0 float-left d-none d-md-block">
+        <div className="col-sm-4 col-12 p-0 float-left d-none d-md-block">
           <div className="img-left-col sticky-top"></div>
         </div>
         <div className="col-sm-4 col-12 pr-0 img-left-col-container d-sm-none">

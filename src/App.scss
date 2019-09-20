@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap");
 
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 .img-left-col {
   background-image: url("./images/left-col.jpg");
   background-position: center;

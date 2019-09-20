@@ -46,14 +46,12 @@ export default class Projects extends React.Component {
             <div className="row justify-content-center text-center">
               <ContactGridElement
                 icon={matchedIcon}
-                center="true"
                 content="MatchEd - A platform designed for academics: Share your interests and find people to collaborate with. Built on Node & React JS"
                 contentSize="4"
                 url="https://github.com/TommyLeoni/MatchEd-Frontend"
               ></ContactGridElement>
               <ContactGridElement
                 icon={splashxIcon}
-                center="true"
                 content="SplashX - The app that gives you all necessary information about the swimming pools in your area, built on Java within Android Studio"
                 contentSize="4"
                 url="https://github.com/TommyLeoni/splashx"
@@ -62,7 +60,6 @@ export default class Projects extends React.Component {
             <div className="row justify-content-center justify-content-sm-start text-left">
               <ContactGridElement
                 icon={tomasoleoniIcon}
-                center="true"
                 contentSize="4"
                 url="https://github.com/TommyLeoni/portfolio"
                 content="My portfolio - the website you are currently looking at! I built this page on React JS with the goal of having a go-to address to get all the necessary information on me"
