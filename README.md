@@ -1,4 +1,4 @@
-##### My portfolio website
+# My portfolio website
 
 ### Why I made this
 
