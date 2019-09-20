@@ -2,6 +2,21 @@ import React from "react";
 import { withNamespaces } from "react-i18next";
 
 function Skills({ t }) {
+  const skillsInfoText = t("skillsInfoText");
+
+  const rawCodingSkills = t("codingSkills");
+  const codingSkills = rawCodingSkills.map((skill, key) => (
+    <dd key={key}>• {skill}</dd>
+  ));
+
+  const rawLanguageSkills = t("languageSkills");
+  const languageSkills = rawLanguageSkills.map((skill, key) => (
+    <dd key={key}>
+      <span>• {skill["language"]}</span>
+      <span className="font-italic"> - {skill["details"]}</span>
+    </dd>
+  ));
+
   return (
     <div className="card m-3">
       <div
@@ -26,68 +41,23 @@ function Skills({ t }) {
           <div className="row text-center">
             <div className="col-12 mb-2">
               <p>
-                Take a look at my complete{" "}
+                {skillsInfoText[0]}
                 <a className="text-body" href="CV_TomasoLeoni.pdf" download>
-                  <u>CV</u>
-                </a>{" "}
-                or catch a glimpse of my skills below:
+                  <u>{skillsInfoText[1]}</u>
+                </a>
+                {skillsInfoText[2]}
               </p>
             </div>
             <div className="col-12 col-md-6">
               <dl className="text-left">
-                <dt>Programming skills:</dt>
-                <dd>
-                  • Deep knowledge of Java, C#, Dart, Python, JavaScript, Ruby,
-                  HTML & CSS
-                </dd>
-                <dd>
-                  • Broad experience in mobile and web development using
-                  Flutter, Android Studio, Ruby on Rails, ReactJS & NodeJS
-                </dd>
-                <dd>
-                  • Great knowledge of databases: SQLite, MySQL,
-                  Dokumentbasierte Datenbanken (MongoDB & Firebase)
-                </dd>
+                <strong>{t("skillsLeftTitle")}</strong>
+                {codingSkills}
               </dl>
             </div>
             <div className="col-12 col-md-6">
               <dl className="text-left">
-                <strong>Language skills:</strong>
-                <dd>
-                  <span>• German</span>
-                  <span className="font-italic">
-                    {" "}
-                    - Native language, I grew up in Germany, but I have no
-                    issues whatsoever understanding the Swiss German language
-                  </span>
-                </dd>
-                <dd>
-                  <span>• Italian</span>
-                  <span className="font-italic"> - 2nd Native language</span>
-                </dd>
-                <dd>
-                  <span>• English</span>
-                  <span className="font-italic">
-                    {" "}
-                    - Certificate of Proficiency in English (Level C2, achieved
-                    in April of 2019)
-                  </span>
-                </dd>
-                <dd>
-                  <span>• French</span>
-                  <span className="font-italic">
-                    {" "}
-                    - (Upcoming) Diplôme avancé de la langue francaise (Level
-                    C1)
-                  </span>
-                </dd>
-                <dd>
-                  <span>• Swedish</span>
-                  <span className="font-italic">
-                    {" "}
-                    - Level B1/B2, self-taught
-                  </span>
-                </dd>
+                <strong>{t("skillsRightTitle")}</strong>
+                {languageSkills}
               </dl>
             </div>
           </div>

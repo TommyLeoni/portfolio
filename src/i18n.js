@@ -15,21 +15,49 @@ i18n
           leadingText:
             "I am an Application developer from Switzerland, with a current major interest in technologies of the future such as artificial intelligence, machine learning, medical informatics and biomechanical engineering. Currently, I am in my last year at the School for Information Technology of Berne, about to head into a one year internship",
           moreAboutMeTitle: "More about me",
-          moreAboutMeText: "My name is Tomaso Aurelio Domenico Leoni and I am a 16 year old application developer from Switzerland, I however grew up in Germany, where I spent the first 11 years of my life. I have always been very invested in all sorts of technologies, so I always knew I was predestined to be working in this market branch one day. During my free time, I love working on my own personal projects or help others out with their projects. Apart from technology and software development though, I am also a great fan of learning languages, motor sports, fashion, music and aesthetics.",
+          moreAboutMeText:
+            "My name is Tomaso Aurelio Domenico Leoni and I am a 16 year old application developer from Switzerland, I however grew up in Germany, where I spent the first 11 years of my life. I have always been very invested in all sorts of technologies, so I always knew I was predestined to be working in this market branch one day. During my free time, I love working on my own personal projects or help others out with their projects. Apart from technology and software development though, I am also a great fan of learning languages, motor sports, fashion, music and aesthetics.",
           skillsTitle: "Skills / CV",
-          skillsInfoText: "Take a look at my complete CV or catch a glimpse of my skills below:",
-          skillsLeftTite: "Programming skills:",
+          skillsInfoText: [
+            "Take a look at my complete ",
+            "CV",
+            " or catch a glimpse of my skills below:"
+          ],
+          skillsLeftTitle: "Programming skills:",
           skillsRightTitle: "Language skills:",
           codingSkills: [
-            "• Deep knowledge of Java, C#, Dart, Python, JavaScript, Ruby, HTML & CSS",
-            "• Broad experience in mobile and web development using Flutter, Android Studio, Ruby on Rails, ReactJS & NodeJS",
+            "Deep knowledge of Java, C#, Dart, Python, JavaScript, Ruby, HTML & CSS",
+            "Broad experience in mobile and web development using Flutter, Android Studio, Ruby on Rails, ReactJS & NodeJS",
             "• Great knowledge of databases: SQLite, MySQL, Dokumentbasierte Datenbanken (MongoDB & Firebase)"
           ],
-          german: "",
-          italian: "",
-          english: "",
-          french: "",
-          swedish: "",
+          languageSkills: [
+            {
+              language: "German",
+              details:
+                "Native language, I grew up in Germany, but I have no issues whatsoever understanding the Swiss German language"
+            },
+            {
+              language: "Italian",
+              details: "2nd Native language"
+            },
+            {
+              language: "English",
+              details:
+                "Certificate of Proficiency in English (Level C2, achieved in April of 2019)"
+            },
+            {
+              language: "French",
+              details:
+                "(Upcoming) Diplôme avancé de la langue francaise (Level C1)"
+            },
+            {
+              language: "Swedish",
+              details: "Level B1/B2, self-taught"
+            }
+          ],
+          projects: {
+            noteable: "",
+          },
           projectsTitle: "",
           noteableText: "",
           moneylogText: "",
@@ -46,17 +74,15 @@ i18n
           moreAboutMeTitle: "Mehr über mich",
           moreAboutMeText: "",
           skillsTitle: "Fähigkeiten / CV",
-          skillsInfoText: "",
-          skillsLeftTite: "",
+          skillsInfoText: [
+            "Laden Sie sich hier meinen ",
+            "Lebenslauf",
+            " herunter oder werfen Sie einen Blick auf das Wichtigste:"
+          ],
+          skillsLeftTitle: "Im Bereich der Programmierung:",
           skillsRightTitle: "",
-          codingFirstPoint: "",
-          codingSecondPoint: "",
-          codingThirdPoint: "",
-          german: "",
-          italian: "",
-          english: "",
-          french: "",
-          swedish: "",
+          codingSkills: [],
+          languageSkills: [],
           projectsTitle: "",
           noteableText: "",
           moneylogText: "",
@@ -73,16 +99,9 @@ i18n
           moreAboutMeText: "",
           skillsTitle: "",
           skillsInfoText: "",
-          skillsLeftTite: "",
+          skillsLeftTitle: "",
           skillsRightTitle: "",
-          codingFirstPoint: "",
-          codingSecondPoint: "",
-          codingThirdPoint: "",
-          german: "",
-          italian: "",
-          english: "",
-          french: "",
-          swedish: "",
+          languageSkills: [],
           projectsTitle: "",
           noteableText: "",
           moneylogText: "",
@@ -99,16 +118,9 @@ i18n
           moreAboutMeText: "",
           skillsTitle: "",
           skillsInfoText: "",
-          skillsLeftTite: "",
+          skillsLeftTitle: "",
           skillsRightTitle: "",
-          codingFirstPoint: "",
-          codingSecondPoint: "",
-          codingThirdPoint: "",
-          german: "",
-          italian: "",
-          english: "",
-          french: "",
-          swedish: "",
+          languageSkills: [],
           projectsTitle: "",
           noteableText: "",
           moneylogText: "",
@@ -125,16 +137,9 @@ i18n
           moreAboutMeText: "",
           skillsTitle: "",
           skillsInfoText: "",
-          skillsLeftTite: "",
+          skillsLeftTitle: "",
           skillsRightTitle: "",
-          codingFirstPoint: "",
-          codingSecondPoint: "",
-          codingThirdPoint: "",
-          german: "",
-          italian: "",
-          english: "",
-          french: "",
-          swedish: "",
+          languageSkills: [],
           projectsTitle: "",
           noteableText: "",
           moneylogText: "",
