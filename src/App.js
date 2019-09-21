@@ -11,11 +11,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App({ t }) {
-  
-  t("codingSkills").forEach(element => {
-    console.log(element);
-  });
-
   return (
     <div className="App">
       <div className="row justify-content-center text-center h-100">
