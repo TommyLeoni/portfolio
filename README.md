@@ -9,7 +9,7 @@ I have not yet fully finished this portfolio about me! I am currently working on
 
 ### Why I made this
 
-As you can probably guess, this project was created to server as a portfolio for the business side of myself. This always leaves a good impression and comes in very handy during application processes or extending my own network of business connections (sounds a bit pretentious, it be like that though).
+As you can probably guess, this project was created to serve as a portfolio for the business side of myself. This always leaves a good impression and comes in very handy during application processes or extending my own network of business connections (sounds a bit pretentious, it be like that though).
 
 
 ### What I used to make this
