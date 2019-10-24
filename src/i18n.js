@@ -56,7 +56,7 @@ i18n
             }
           ],
           projects: {
-            noteable: "",
+            noteable: ""
           },
           projectsTitle: "Projects",
           noteableText: "",
@@ -73,7 +73,8 @@ i18n
           leadingText:
             "Ich bin ein Applikationsentwickler aus der Schweiz mit einem brennendem Interesse für die Technologien der Zukunft, wie zum Beispiel Künstliche Intelligenz, Maschinelles Lernen, Medizininformatik und Biomedizinische Ingenieurwissenschaften. Zurzeit besuche ich das letzte Schuljahr der IMS (Informatikmittelschule) Bern und befinde mich inmitten der Bewerbungsphase für mein nächstjähriges Praktikum",
           moreAboutMeTitle: "Mehr über mich",
-          moreAboutMeText: "Mein Name ist Tomaso Aurelio Domenico Leoni und ich bin ein 16-jähriger Applikationsentwickler aus der Schweiz, habe allerdings die ersten 11 Jahre meines Lebens in Deutschland verbracht. Seit klein auf bin ich von der gesamten Welt der Technik fasziniert: Waren es früher Lokomotiven und Baustellen, ist es heute besonders der Bereich der Software. In meiner Freizeit arbeite ich gerne an eigenen Projekten, arbeite mit anderen Leuten an anderen Projekten oder helfe ihnen bei ihren eigenen Projekten. Nebst jeglichen technologischen Interessen, bin ich ein grosser Freund von Sprachen, Motorsport, Kleidung, Musik und Ästhetik.",
+          moreAboutMeText:
+            "Mein Name ist Tomaso Aurelio Domenico Leoni und ich bin ein 16-jähriger Applikationsentwickler aus der Schweiz, habe allerdings die ersten 11 Jahre meines Lebens in Deutschland verbracht. Seit klein auf bin ich von der gesamten Welt der Technik fasziniert: Waren es früher Lokomotiven und Baustellen, ist es heute besonders der Bereich der Software. In meiner Freizeit arbeite ich gerne an eigenen Projekten, arbeite mit anderen Leuten an anderen Projekten oder helfe ihnen bei ihren eigenen Projekten. Nebst jeglichen technologischen Interessen, bin ich ein grosser Freund von Sprachen, Motorsport, Kleidung, Musik und Ästhetik.",
           skillsTitle: "Fähigkeiten / CV",
           skillsInfoText: [
             "Laden Sie sich hier meinen ",
@@ -90,17 +91,24 @@ i18n
           languageSkills: [
             {
               language: "Deutsch",
-              details: "Muttersprache, in Deutschland aufgewachsen, habe aber keinerlei Probleme beim Verstehen von Schweizerdeutsch"
-            }, {
+              details:
+                "Muttersprache, in Deutschland aufgewachsen, habe aber keinerlei Probleme beim Verstehen von Schweizerdeutsch"
+            },
+            {
               language: "Italienisch",
               details: "2. Muttersprache"
-            }, {
+            },
+            {
               language: "Englisch",
-              details: "Certificate of Proficiency in English (Level C2, im April 2019 erlangt)"
-            }, {
+              details:
+                "Certificate of Proficiency in English (Level C2, im April 2019 erlangt)"
+            },
+            {
               language: "Französisch",
-              details: "(Anstehend) Diplôme avancé de la langue française (Level C1)"
-            }, {
+              details:
+                "(Anstehend) Diplôme avancé de la langue française (Level C1)"
+            },
+            {
               language: "Schwedisch",
               details: "Autodidaktisches lernen, Level B1/B2"
             }
@@ -117,14 +125,38 @@ i18n
       swe: {
         translations: {
           title: "Hey! Jag heter Tomaso",
-          leadingText: "Mitt namn är Tomaso Aurelio Domenico Leoni och jag är an 16 ǻr gammal programutvecklare frǻn Schweiz, men jag har levt i Tyskland för det första elva ǻren av mitt liv.",
+          leadingText:
+            "Mitt namn är Tomaso Aurelio Domenico Leoni och jag är an 16 ǻr gammal programutvecklare frǻn Schweiz, men jag har levt i Tyskland för det första elva ǻren av mitt liv.",
           moreAboutMeTitle: "Mer om mig",
           moreAboutMeText: "",
           skillsTitle: "Kompetensen / CV",
           skillsInfoText: "",
           skillsLeftTitle: "",
           skillsRightTitle: "",
-          languageSkills: [],
+          languageSkills: [
+            {
+              language: "Tysk",
+              details: ""
+            },
+            {
+              language: "Italianska",
+              details: "2nd Native language"
+            },
+            {
+              language: "Engelska",
+              details:
+                "Certificate of Proficiency in English (Level C2, achieved in April of 2019)"
+            },
+            {
+              language: "Franska",
+              details:
+                "(Upcoming) Diplôme avancé de la langue française (Level C1)"
+            },
+            {
+              language: "Svenska",
+              details: "Level B1/B2, self-taught"
+            }
+          ],
           projectsTitle: "Projekten",
           noteableText: "",
           moneylogText: "",
@@ -144,7 +176,31 @@ i18n
           skillsInfoText: "",
           skillsLeftTitle: "",
           skillsRightTitle: "",
-          languageSkills: [],
+          languageSkills: [
+            {
+              language: "Deutsch",
+              details:
+                "Muttersprache, in Deutschland aufgewachsen, habe aber keinerlei Probleme beim Verstehen von Schweizerdeutsch"
+            },
+            {
+              language: "Italienisch",
+              details: "2. Muttersprache"
+            },
+            {
+              language: "Englisch",
+              details:
+                "Certificate of Proficiency in English (Level C2, im April 2019 erlangt)"
+            },
+            {
+              language: "Französisch",
+              details:
+                "(Anstehend) Diplôme avancé de la langue française (Level C1)"
+            },
+            {
+              language: "Schwedisch",
+              details: "Autodidaktisches lernen, Level B1/B2"
+            }
+          ],
           projectsTitle: "Progetti",
           noteableText: "",
           moneylogText: "",
@@ -157,14 +213,47 @@ i18n
       fr: {
         translations: {
           title: "Bonjour! Je m'appelle Tomaso",
-          leadingText: "",
+          leadingText: "Je suis un développeur d'applications suisse grandi en Allemagne avec des forts intéresses pour les technologies du future comme l'intelligence artificielle, l'apprentissage machine, l'informatique médical et l'ingenieurie biomédical. Au moment, je me trouve dans le dernièr ans de l'ècole informatique du Berne, sur le point de commencer mon stage à longue durée.",
           moreAboutMeTitle: "Plus d'informations sur moi",
           moreAboutMeText: "",
           skillsTitle: "Compétences / CV",
-          skillsInfoText: "",
-          skillsLeftTitle: "",
-          skillsRightTitle: "",
-          languageSkills: [],
+          skillsInfoText: [
+            "Veuillez télécharger mon ",
+            "CV",
+            " ou trouver ensuite les informations les plus relévant:"
+          ],
+          skillsLeftTitle: "Dans l'informatique:",
+          skillsRightTitle: "Compétences linguistiqués:",
+          codingSkills: [
+            "Expérience approfondie en Java, C#, Dart, Python, JavaScript, Ruby, HTML & CSS",
+            "Expérience formidable dans le développement mobile et web avec Flutter, Android Studio, Ruby on Rails, ReactJS & NodeJS",
+            "Grandes connaissances de banques des donnes ; SQLite, MySQL, banques des donnes basées sur documents (MongoDB & Firebase)"
+          ],
+          languageSkills: [
+            {
+              language: "Alemand",
+              details:
+                "langue maternelle (grandi en Allemagne, pas de problème avec la compréhension du suisse allemand)"
+            },
+            {
+              language: "Italien",
+              details: "deuxième langue maternelle"
+            },
+            {
+              language: "Anglais",
+              details:
+                "Certificate of Proficiency in English (Niveau C2)"
+            },
+            {
+              language: "Français",
+              details:
+                "(à venir) Diplôme avancé de la langue française C1"
+            },
+            {
+              language: "Suedoise",
+              details: "Niveau B1/B2, appris moi-même"
+            }
+          ],
           projectsTitle: "Projets",
           noteableText: "",
           moneylogText: "",
