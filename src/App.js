@@ -6,6 +6,7 @@ import { useSpring, a } from "react-spring";
 import { useMeasure, usePrevious } from "./helpers";
 import { Global, Frame, Title, Content, toggle } from "./styles";
 import * as Icons from "./icons";
+import Emoji from "a11y-react-emoji";
 import "react-tiny-fab/dist/styles.css";
 import "./App.scss";
 /*import About from "./components/About";
@@ -59,8 +60,19 @@ function App({ t }) {
             <span role="img" aria-label="Swiss flag">
               🇨🇭
             </span>
+            <Emoji symbol="💕" label="love"></Emoji>
           </h6>
-          <Tree name={<span>Navigation <span role="img" aria-label="Compass emoji">🧭</span></span>} defaultOpen>
+          <Tree
+            name={
+              <span>
+                Navigation{" "}
+                <span role="img" aria-label="Compass emoji">
+                  🧭
+                </span>
+              </span>
+            }
+            defaultOpen
+          >
             <Tree name="About me" />
             <Tree name="My projects" />
             <Tree name="Education & Skils" />
