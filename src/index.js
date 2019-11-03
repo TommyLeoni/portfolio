@@ -1,16 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { I18nextProvider } from "react-i18next";
-//import { Card } from './components/PopupCard';
 import App from "./App";
-import i18n from "./i18n";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <I18nextProvider i18n={i18n}>
-    <App />
-  </I18nextProvider>,
+    <App />,
   document.getElementById("root")
 );
 

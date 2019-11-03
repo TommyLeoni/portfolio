@@ -30,6 +30,10 @@
   overflow-x: hidden;
 }
 
+.routing-link {
+  text-decoration: none!important;
+}
+
 @media (max-width: 575.98px) {
   .greeting {
     border-bottom: solid 5px #212529;
